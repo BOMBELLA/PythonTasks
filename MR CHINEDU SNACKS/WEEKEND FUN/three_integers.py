@@ -4,8 +4,8 @@
 a = int(input("Enter the first number : "))
 b = int(input("Enter the second number : "))
 c = int(input("Enter the third number : "))
-
-if(a > b):
-       print("a")
-else if(b < c):
+largest = a
+if(b > largest):
+       print(largest)
+else:
        print("c")
