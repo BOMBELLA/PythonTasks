@@ -1,4 +1,7 @@
-failures = 1 
+failures = 1
+           sum = sum + failures
+           print("total sum is " ,sum)      
+                      
 sum = 0
 while True:
        user_input = input("Enter  number :")
@@ -9,6 +12,3 @@ while True:
        if number != 1 and number != 2:
               failures+1
        else:
-           sum = sum + failures
-           print("total sum is " ,sum)      
-                     
